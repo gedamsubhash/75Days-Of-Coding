@@ -3,3 +3,7 @@ Binary Search is an efficient searching technique that works with `log(n)` time 
 - **Agnostic Binary Search**: Order of elements arraged is unknown.
 - **Rotated Binary Search**: The order of the elements are in rotated fasion.
 - **Infinite Array Binary Search**: When the size of the given array to be searched from is unknown.
+
+Binary searching technique can be applied through 2 ways,
+1. Iteration Based Searching
+2. Recurrsion Based Searching
