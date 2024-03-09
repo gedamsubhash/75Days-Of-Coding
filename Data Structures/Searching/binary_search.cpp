@@ -80,7 +80,7 @@ int main(){
     int size=sizeof(a)/sizeof(a[0]);
     int option;
     do{
-        cout<<"\n1.Normal Binary Search\n2.Agnostic Binary Search\n3.Rotated Binary Search\n4.Search in Rotated Array\n";
+        cout<<"\n1.Normal Binary Search\n2.Agnostic Binary Search\n3.Search in Rotated Array\n";
         cin>>option;
         if(option==0){
             break;
@@ -91,9 +91,9 @@ int main(){
             res=binary_search_using_iteration(a, size, target);
         else if(option==2)
             res=agnostic_binary_search(a, size, target);
-        else if(option==4)
+        else if(option==3)
             size=sizeof(a2)/sizeof(a2[0]);
-            res=binary_search_on_rotated_array(a2, size, 2);
+            res=binary_search_on_rotated_array(a2, size, target);
         if(res!=-1)
             cout<<"Element found at index "<<res<<endl;
         else
