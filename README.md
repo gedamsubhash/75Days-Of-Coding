@@ -17,3 +17,12 @@ Here, I push every code and problem that I tackle throughout the day.
     <li>Bubble sort and Selection sort</li>
   </ul>
 </details>
+<details>
+  <summary>Day 3</summary>
+  <h4>Intermediate Topics related to Recursions</h4>
+  <ul>
+    <li>Generating all possible subset of a given array (Java)</li>
+    <li>Generating all possible subsequence of a given array (Java)</li>
+    <li>Implementation of Merge Sort and Quick Sort</li>
+  </ul>
+</details>
