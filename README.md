@@ -26,3 +26,12 @@ Here, I push every code and problem that I tackle throughout the day.
     <li>Implementation of Merge Sort and Quick Sort</li>
   </ul>
 </details>
+<details>
+  <summary>Day 4</summary>
+  <h4>Problem solving related to Arrays</h4>
+  <ul>
+    <li>Image Rotation</li>
+    <li>Array Rotation</li>
+    <li>POTD related to strings</li>
+  </ul>
+</details>
