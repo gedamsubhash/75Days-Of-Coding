@@ -42,6 +42,6 @@ Here, I push every code and problem that I tackle throughout the day.
     <li>Boyer-Moore Majority Voting Algorithm</li>
     <li>Largest Sum Contiguous Subarray (Kadane’s Algorithm)</li>
     <li>Dutch National Flag Problem</li>
-    <li>POTD related to strings</li>
+    <li>POTD related to LinkedList (#1171)</li>
   </ul>
 </details>
