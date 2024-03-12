@@ -35,3 +35,13 @@ Here, I push every code and problem that I tackle throughout the day.
     <li>POTD related to strings</li>
   </ul>
 </details>
+<details>
+  <summary>Day 5</summary>
+  <h4>Working on various Algorithms</h4>
+  <ul>
+    <li>Boyer-Moore Majority Voting Algorithm</li>
+    <li>Largest Sum Contiguous Subarray (Kadane’s Algorithm)</li>
+    <li>Dutch National Flag Problem</li>
+    <li>POTD related to strings</li>
+  </ul>
+</details>
