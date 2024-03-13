@@ -45,3 +45,13 @@ Here, I push every code and problem that I tackle throughout the day.
     <li>POTD related to LinkedList (#1171)</li>
   </ul>
 </details>
+<details>
+  <summary>Day 6</summary>
+  <h4>Working on various topics and Problems</h4>
+  <ul>
+    <li>Attended Workshop on Compiler Designing</li>
+    <li>Gas Station Problem</li>
+    <li>Solved problem related to Binary Search (#410)</li>
+    <li>POTD related to Numbers/Maths (#2485)</li>
+  </ul>
+</details>
