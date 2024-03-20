@@ -1,3 +1,7 @@
+class ListNode{
+    ListNode next=null;
+
+}
 class Solution {
     public ListNode mergeInBetween(ListNode list1, int a, int b, ListNode list2) {
         ListNode t1=list1;
