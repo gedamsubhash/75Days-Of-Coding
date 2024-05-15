@@ -5,9 +5,7 @@ int get_digits(int n){
     if(n==0){
         return 0;
     }
-    int i=0;
-    i++;
-    return i+get_digits(n/10);
+    return 1+get_digits(n/10);
 }
 int helper(int n, int digits){
     if(n==0){
