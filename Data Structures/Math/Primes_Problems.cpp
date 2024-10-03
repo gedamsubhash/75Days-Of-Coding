@@ -6,6 +6,7 @@ void prime_factors(int);
 void seivesOfEratosthenis(int);
 void test();
 void spf(int );
+void generate_prime_factors_seives(int );
 int main(){
     // cout<<gcd(3,7);
     // int arr[]={2,4,6};
@@ -15,7 +16,8 @@ int main(){
     // cin>>n;
     // seivesOfEratosthenis(n);
     // test();
-    spf(20); // Smallest Prime Factors - Seives Eratosthenis
+    // spf(20); // Smallest Prime Factors - Seives Eratosthenis
+    generate_prime_factors_seives(200);
 }
 
 int gcd(int a, int b){
@@ -87,5 +89,30 @@ void spf(int n){
 
     for(int i=2; i<=n; i++){
         cout<<spf[i]<<" ";
+    }
+}
+
+void generate_prime_factors_seives(int n){
+    // To demonstrate seives method for pre-computation
+    int spf[1000]={0};
+
+    for(int i=2; i<1000; i++){
+        if(spf[i]==0){
+            for(int j=i; j<1000; j+=i){
+                if(spf[j]==0){
+                    spf[j]=i;
+                }
+            }
+        }
+    }
+
+    vector<int> primeFactors;
+    while(n!=1){
+        primeFactors.push_back(spf[n]);
+        n/=spf[n];
+    }
+
+    for(int  i : primeFactors){
+        cout<<i<<" ";
     }
 }
